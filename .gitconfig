@@ -6,6 +6,6 @@
 [color]
 	ui = auto
 [core]
-	editor = gvim
+	editor = gvim -f
 [push]
 	default = simple
