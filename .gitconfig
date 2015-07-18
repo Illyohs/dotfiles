@@ -1,0 +1,11 @@
+[user]
+	email = lordillyohs@gmail.com
+	name = Anthony Anderson
+[hub]
+	protocol = ssh
+[color]
+	ui = auto
+[core]
+	editor = gvim
+[push]
+	default = simple
