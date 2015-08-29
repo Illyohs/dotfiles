@@ -1,16 +1,29 @@
+#!/bin/bash
 
+#Utility
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias vi='vim'
+alias playmusic='mplayer -shuffle -novideo'
+alias mkdir='mkdir -p'
+alias beep='paplay $BEEP'
+
+#Power
 alias sleep='systemctl suspend'
 alias poweroff='sudo shutdown now'
-alias cc='clang'
 alias reboot='sudo reboot'
-alias better='apacman -Syu'
-alias getz='apacman -S'
-alias see='apacman -Si'
 
-alias git='hub'
+#Compiler
+alias cc='clang'
+alias ++='clang++'
+
+#Packages
+alias better='yaourt -Syu'
+alias getz='yaourt -S'
+alias see='yaourt -Si'
+
+#Git
+#alias git='hub'
 alias clone='git clone'
 alias push='git push'
 alias fetch='git fetch'
@@ -20,10 +33,9 @@ alias commit='git commit --signoff'
 alias status='git status'
 alias branch='git branch'
 alias checkout='git checkout'
+alias mergetool='git mergetool'
+alias tag="git tag"
 
-alias playmusic='mplayer -shuffle -novideo'
-alias mkdir='mkdir -p'
-
+#Exports
 export BEEP=/usr/share/sounds/KDE-Im-Message-In.ogg
-alias beep='paplay $BEEP'
 export PULSE_LATENCY_MSEC=60

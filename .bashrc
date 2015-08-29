@@ -11,10 +11,11 @@ export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWUPSTREAM=verbose
+source '/home/anthony/dotfiles/.aliases'
 
-export WORKON_HOME=~/.virtualenvs
-source /usr/bin/virtualenvwrapper.sh
-VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+#export WORKON_HOME=~/.virtualenvs
+#source /usr/bin/virtualenvwrapper.sh
+#VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 #PS1='[\u@\h \W]\$'
 
@@ -95,23 +96,24 @@ On_IWhite='\e[0;107m'   # White
 
 PS1="\[[${Cyan}\u${Color_Off}\[][${IYellow}\h${Color_Off}][${ICyan}\w${Color_Off}]\n\[${IGreen}>${Color_Off}\] "
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias vi='vim'
-alias sleep='systemctl suspend'
-alias poweroff='sudo shutdown now'
-alias cc='clang'
-alias reboot='sudo reboot'
-alias better='apacman -Syu'
-alias getz='apacman -S'
-alias see='apacman -Si'
+#alias ls='ls --color=auto'
+#alias grep='grep --color=auto'
+#alias vi='vim'
+#alias sleep='systemctl suspend'
+#alias poweroff='sudo shutdown now'
+#alias cc='clang'
+#alias ++='clang++'
+#alias reboot='sudo reboot'
+#alias better='apacman -Syu'
+#alias getz='apacman -S'
+#alias see='apacman -Si'
 
-alias git='hub'
-alias clone='git clone'
-alias push='git push'
-alias fetch='git fetch'
-alias merge='git merge'
-alias add='git add --verbose -A'
-alias status='git status'
-alias commit='git comsign'
-alias playmusic='mplayer -shuffle -novideo Music/*'
+#alias git='hub'
+#alias clone='git clone'
+#alias push='git push'
+#alias fetch='git fetch'
+#alias merge='git merge'
+#alias add='git add --verbose -A'
+#alias status='git status'
+#alias commit='git comsign'
+#alias playmusic='mplayer -shuffle -novideo Music/*'

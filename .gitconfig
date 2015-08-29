@@ -6,7 +6,7 @@
 [color]
 	ui = auto
 [core]
-	editor = gvim -f
+	editor = vim -f
 [push]
 	default = simple
 [diff]
