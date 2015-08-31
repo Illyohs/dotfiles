@@ -25,9 +25,9 @@ URxvt*color13: magenta
 URxvt*color14: cyan
 URxvt*color15: white
 
-URxvt.font: xft:monospace:size=14
+URxvt.font: xft:monospace:size=12
 
 URxvt.perl-ext-common: default,matcher
-URxvt.url-launcher: /usr/bin/opera
+URxvt.url-launcher: /usr/bin/google-chrome-beta
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold fg5
