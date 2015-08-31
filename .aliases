@@ -15,7 +15,7 @@ alias reboot='sudo reboot'
 
 #Compiler
 alias cc='clang'
-alias ++='clang++'
+alias c+='clang++'
 alias jc='javac'
 alias ginit='gradle init'
 alias gbuild='gradle build'
