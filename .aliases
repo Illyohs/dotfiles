@@ -15,10 +15,13 @@ alias reboot='sudo reboot'
 
 #Compiler
 alias cc='clang'
-alias ++='clang++'
+alias c+='clang++'
+alias jc='javac'
+alias ginit='gradle init'
+alias gbuild='gradle build'
 
 #Packages
-alias better='yaourt -Syu'
+alias better='yaourt -Syu --aur'
 alias getz='yaourt -S'
 alias see='yaourt -Si'
 
