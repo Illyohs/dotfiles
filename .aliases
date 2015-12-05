@@ -21,8 +21,8 @@ alias ginit='gradle init'
 alias gbuild='gradle build'
 
 #Packages
-alias better='yaourt -Syu --aur'
-alias getz='yaourt -S'
+alias upgrade='yaourt -Syu --aur'
+alias install='yaourt -S'
 alias see='yaourt -Si'
 
 #Git
@@ -31,7 +31,7 @@ alias clone='git clone'
 alias push='git push'
 alias fetch='git fetch'
 alias merge='git merge'
-alias add='git add --verbose -A'
+alias stage='git add --verbose -A'
 alias commit='git commit --signoff'
 alias status='git status'
 alias branch='git branch'
